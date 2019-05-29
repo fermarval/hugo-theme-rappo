@@ -51,6 +51,28 @@ theme = "hugo-elate-rappo"
     title = "Contact"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
+  # Features section
+  [params.features]
+
+  [[params.features.item]]
+    title = "The right advice"
+    description = "We've been awarded for our high rate of customer satisfaction."
+    icon = "ti-thumb-up"
+
+  [[params.features.item]]
+    title = "Recognised for excellence"
+    description = "We've been awarded for our high rate of customer satisfaction."
+    icon = "ti-cup"
+
+  [[params.features.item]]
+    title = "Compare the best"
+    description = "We only compare market leaders with a reputation for service quality."
+    icon = "ti-wallet"
+
+  [[params.features.item]]
+    title = "Premium Services"
+    description = "We only compare market leaders with a reputation for service quality."
+    icon = "ti-dashboard"
 
 
 
