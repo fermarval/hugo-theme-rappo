@@ -74,5 +74,15 @@ theme = "hugo-elate-rappo"
     description = "We only compare market leaders with a reputation for service quality."
     icon = "ti-dashboard"
 
-
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = '&copy; Copyright <span class="current-year"><a href="https://themefisher.com/free-bootstrap-templates">Free Bootstrap Templates</a></span> All rights reserved.'
+    links = [
+        ["#", "fab fa-facebook-f", "Facebook"],
+        ["#", "fab fa-twitter", "Twitter"],
+        ["#", "fab fa-pinterest-p", "Pinterest"],
+        ["#", "fab fa-linkedin", "linkedin"],
+        ["#", "fab fa-youtube", "YouTube"]
+      ]
 
