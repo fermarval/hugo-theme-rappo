@@ -19,30 +19,38 @@
 
 		{{ partial "hero.html" .}}
 		
-        {{ partial "features.html" .}}
+        {{ partial "feature.html" .}}
 
-        {{ if .Site.Params.prices.enable }}
-            {{ partial "prices.html" .}}
+        {{ if .Site.Params.service.enable }}
+            {{ partial "service.html" .}}
         {{ end }}
 
-		{{ if .Site.Params.testimonials.enable }}
-        	{{ partial "testimonials.html" .}}
-		{{ end }}
+        {{ if .Site.Params.process.enable }}
+            {{ partial "process.html" .}}
+        {{ end }}
 
-		{{ if .Site.Params.services.enable }}
-        	{{ partial "services.html" .}}
-		{{ end }}
+        {{ if .Site.Params.services.enable }}
+            {{ partial "services.html" .}}
+        {{ end }}
 
-		{{ if .Site.Params.about.enable }}
-        	{{ partial "about.html" .}}
-		{{ end }}
+        {{ if .Site.Params.pricing.enable }}
+            {{ partial "pricing.html" .}}
+        {{ end }}
 
         {{ if .Site.Params.projects.enable }}
             {{ partial "projects.html" .}}
         {{ end }}
 
+        {{ if .Site.Params.testimonials.enable }}
+            {{ partial "testimonials.html" .}}
+        {{ end }}
+
         {{ if .Site.Params.blog.enable }}
             {{ partial "blog.html" .}}
+        {{ end }}
+
+        {{ if .Site.Params.about.enable }}
+            {{ partial "about.html" .}}
         {{ end }}
 
 		{{ if .Site.Params.contact.enable }}

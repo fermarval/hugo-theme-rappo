@@ -16,40 +16,18 @@ theme = "hugo-theme-rappo"
     brand = "Rappo"
     home = "Home"
     about = "About"
-    services = "Services"
+    service = "Services"
     pricing = "Pricing"
     projects = "Projects"
     contact = "Contact"
+    button = "Get a quote"
+    button_url = "#"
 
   # Hero section
   [params.hero]
     title = "Industry Leading Managed Services Solutions"
     subtitle = "Pindom is set of landing and support pages aimed at helping companies promote new products and business launches."
     button = "Purchase now"
-
-  # About section
-  [params.about]
-    enable = false
-    title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-  # Services section
-  [params.services]
-    enable = false
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-  # Pricing section
-  [params.pricing]
-    enable = false
-    title = "Pricing"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-  # Contact section
-  [params.contact]
-    enable = false
-    title = "Contact"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
   # Features section
   [params.features]
@@ -73,6 +51,159 @@ theme = "hugo-theme-rappo"
     title = "Premium Services"
     description = "We only compare market leaders with a reputation for service quality."
     icon = "ti-dashboard"
+
+  # Service section
+  [params.service]
+    enable = true
+    image = "img/blog-lg.jpg"
+    title = "Get a better deal and start saving money today"
+    description = "We compare hundreds of leading products and plans across many categories to bring you the best value for money."
+    subtext = 'Want to know more about this? <a href="#">Contact us</a>'
+
+  [[params.service.item1]]
+    title = "Backup System"
+    description = "Our team are experts in matching you with the right provider."
+    icon = "ti-reload"
+
+  [[params.service.item1]]
+    title = "Cloud Hosting"
+    description = "Our team are experts in matching you with the right provider."
+    icon = "ti-cloud"
+
+  [[params.service.item2]]
+    title = "Web Hosting"
+    description = "Our team are experts in matching you with the right provider."
+    icon = "ti-world"
+
+  [[params.service.item2]]
+    title = "Office Cloud"
+    description = "Our team are experts in matching you with the right provider."
+    icon = "ti-server"
+
+  # Process section
+  [params.process]
+    enable = true
+    title = "Our Working process"
+    description = "Rapoo can be used to create anything from a small marketing page to a sophisticated website."
+
+  [[params.process.item]]
+    title = "Project Research"
+    image = "img/process/process-1.jpg"
+    description = "Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit."
+
+  [[params.process.item]]
+    title = "Project Research"
+    image = "img/process/process-1.jpg"
+    description = "Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit."
+
+  [[params.process.item]]
+    title = "Project Research"
+    image = "img/process/process-1.jpg"
+    description = "Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit."
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "Web Services"
+    description = "Rapoo can be used to create anything from a small marketing page to a sophisticated website."
+
+  [[params.services.item1]]
+    title = "Creative Design"
+    description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
+    icon = "ti-light-bulb"
+
+  [[params.services.item1]]
+    title = "Web Development"
+    description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
+    icon = "ti-desktop"
+
+  [[params.services.item1]]
+    title = "Digital Marketing"
+    description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
+    icon = "ti-announcement"
+
+  [[params.services.item2]]
+    title = "Creative Design"
+    description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
+    icon = "ti-layers-alt"
+
+  [[params.services.item2]]
+    title = "Creative Design"
+    description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
+    icon = "ti-mobile"
+
+  [[params.services.item2]]
+    title = "Creative Design"
+    description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
+    icon = "ti-settings"
+
+  # Pricing section
+  [params.pricing]
+    enable = true
+    title = "Pricing"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+  [[params.pricing.item]]
+    title = "The right advice"
+    price = '<small>$</small>13<span>monthly</span>'
+    features = '<li>Unlimited Domain</li><li>Unmetered Bandwidth</li><li>Free SSL Certificate </li><li>20 Email Subscription</li><li>SSD Hosting</li>'
+    button = "Purchase Now"
+    link = "#"
+
+  [[params.pricing.item]]
+    title = "The right advice"
+    price = '<small>$</small>13<span>monthly</span>'
+    features = '<li>Unlimited Domain</li><li>Unmetered Bandwidth</li><li>Free SSL Certificate </li><li>20 Email Subscription</li><li>SSD Hosting</li>'
+    button = "Purchase Now"
+    link = "#"
+
+  [[params.pricing.item]]
+    title = "The right advice"
+    price = '<small>$</small>13<span>monthly</span>'
+    features = '<li>Unlimited Domain</li><li>Unmetered Bandwidth</li><li>Free SSL Certificate </li><li>20 Email Subscription</li><li>SSD Hosting</li>'
+    button = "Purchase Now"
+    link = "#"
+
+  # Contact section
+  [params.projects]
+    enable = true
+    text1 = "We are trying to deliver 100% quality product and success their business to achieve ultimate goal."
+    text2 = "We are providing best service since 1990 to present , committed to best service delivery"
+    text3 = "Nullam metus enim, placerat in lacus vel, porttitor egestas libero. Etiam ex risus, feugiat eget accumsan eu, sagittis eu urna. In eget ultrices metus. Nunc accumsan "
+    feature_img = "img/bg/banner_bg.jpg"
+    feature_top = "Do you know who we are?"
+    feature_title = "More than just service your products..."
+    feature_text = "Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and we will give you a complete account of the system."
+
+  [[params.projects.item]]
+    title = "The right advice"
+    image = "img/projects/p-1.jpg"
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi consequuntur veniam quod"
+
+  [[params.projects.item]]
+    title = "The right advice"
+    image = "img/projects/p-1.jpg"
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi consequuntur veniam quod"
+
+  [[params.projects.item]]
+    title = "The right advice"
+    image = "img/projects/p-1.jpg"
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi consequuntur veniam quod"
+
+  # About section
+  [params.about]
+    enable = false
+    title = "About"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+
+  # Contact section
+  [params.contact]
+    enable = false
+    title = "Contact"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+  
 
   # Footer section
   [params.footer]
