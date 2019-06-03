@@ -17,9 +17,9 @@
                             {{ .Site.Params.navigation.home }}
                         </a>
                     </li>
-                    {{ if .Site.Params.about.enable }}
+                    {{ if .Site.Params.process.enable }}
                     <li class="nav-item ">
-                        <a href="#about" class="nav-link js-scroll-trigger">
+                        <a href="#process" class="nav-link js-scroll-trigger">
                             {{ .Site.Params.navigation.about }}
                         </a>
                     </li>
@@ -27,7 +27,7 @@
 
                     {{ if .Site.Params.services.enable }}
                     <li class="nav-item ">
-                        <a href="#service" class="nav-link js-scroll-trigger">
+                        <a href="#services" class="nav-link js-scroll-trigger">
                             {{ .Site.Params.navigation.service }}
                         </a>
                     </li>
@@ -59,7 +59,7 @@
                 </ul>
 
                 <ul class="ml-lg-auto list-unstyled m-0 nav-btn">
-                    <li><a href="{{ .Site.Params.navigation.quote_url }}" class="btn btn-trans-white btn-circled">{{ .Site.Params.navigation.quote }}</a></li>
+                    <li><a href="{{ .Site.Params.navigation.button_url }}" class="btn btn-trans-white btn-circled">{{ .Site.Params.navigation.button }}</a></li>
                 </ul>
             </div> <!-- / .navbar-collapse -->
         </div> <!-- / .Container -->

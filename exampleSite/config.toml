@@ -29,29 +29,6 @@ theme = "hugo-theme-rappo"
     subtitle = "Pindom is set of landing and support pages aimed at helping companies promote new products and business launches."
     button = "Purchase now"
 
-  # Features section
-  [params.features]
-
-  [[params.features.item]]
-    title = "The right advice"
-    description = "We've been awarded for our high rate of customer satisfaction."
-    icon = "ti-thumb-up"
-
-  [[params.features.item]]
-    title = "Recognised for excellence"
-    description = "We've been awarded for our high rate of customer satisfaction."
-    icon = "ti-cup"
-
-  [[params.features.item]]
-    title = "Compare the best"
-    description = "We only compare market leaders with a reputation for service quality."
-    icon = "ti-wallet"
-
-  [[params.features.item]]
-    title = "Premium Services"
-    description = "We only compare market leaders with a reputation for service quality."
-    icon = "ti-dashboard"
-
   # Service section
   [params.service]
     enable = true
@@ -66,19 +43,19 @@ theme = "hugo-theme-rappo"
     icon = "ti-reload"
 
   [[params.service.item1]]
-    title = "Cloud Hosting"
+    title = "Backup System"
     description = "Our team are experts in matching you with the right provider."
-    icon = "ti-cloud"
+    icon = "ti-reload"
 
   [[params.service.item2]]
-    title = "Web Hosting"
+    title = "Backup System"
     description = "Our team are experts in matching you with the right provider."
-    icon = "ti-world"
+    icon = "ti-reload"
 
   [[params.service.item2]]
-    title = "Office Cloud"
+    title = "Backup System"
     description = "Our team are experts in matching you with the right provider."
-    icon = "ti-server"
+    icon = "ti-reload"
 
   # Process section
   [params.process]
@@ -92,12 +69,12 @@ theme = "hugo-theme-rappo"
     description = "Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit."
 
   [[params.process.item]]
-    title = "Project Research"
+    title = "Project demostration"
     image = "img/process/process-1.jpg"
     description = "Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit."
 
   [[params.process.item]]
-    title = "Project Research"
+    title = "Development & delivery"
     image = "img/process/process-1.jpg"
     description = "Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit."
 
@@ -115,28 +92,38 @@ theme = "hugo-theme-rappo"
   [[params.services.item1]]
     title = "Web Development"
     description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
-    icon = "ti-desktop"
+    icon = "ti-light-bulb"
 
   [[params.services.item1]]
     title = "Digital Marketing"
     description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
-    icon = "ti-announcement"
+    icon = "ti-light-bulb"
 
   [[params.services.item2]]
-    title = "Creative Design"
+    title = "Graphic Design"
     description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
-    icon = "ti-layers-alt"
+    icon = "ti-light-bulb"
 
   [[params.services.item2]]
-    title = "Creative Design"
+    title = "Graphic Design"
     description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
-    icon = "ti-mobile"
+    icon = "ti-light-bulb"
 
   [[params.services.item2]]
-    title = "Creative Design"
+    title = "Wordpress Installation"
     description = "Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had."
-    icon = "ti-settings"
+    icon = "ti-light-bulb"
 
+
+  
+
+  # About section
+  [params.about]
+    enable = false
+    title = "About"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+  
   # Pricing section
   [params.pricing]
     enable = true
@@ -190,11 +177,7 @@ theme = "hugo-theme-rappo"
     image = "img/projects/p-1.jpg"
     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eligendi consequuntur veniam quod"
 
-  # About section
-  [params.about]
-    enable = false
-    title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
 
 
   # Contact section
@@ -203,7 +186,28 @@ theme = "hugo-theme-rappo"
     title = "Contact"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
-  
+  # Features section
+  [params.features]
+
+  [[params.features.item]]
+    title = "The right advice"
+    description = "We've been awarded for our high rate of customer satisfaction."
+    icon = "ti-thumb-up"
+
+  [[params.features.item]]
+    title = "Recognised for excellence"
+    description = "We've been awarded for our high rate of customer satisfaction."
+    icon = "ti-cup"
+
+  [[params.features.item]]
+    title = "Compare the best"
+    description = "We only compare market leaders with a reputation for service quality."
+    icon = "ti-wallet"
+
+  [[params.features.item]]
+    title = "Premium Services"
+    description = "We only compare market leaders with a reputation for service quality."
+    icon = "ti-dashboard"
 
   # Footer section
   [params.footer]
